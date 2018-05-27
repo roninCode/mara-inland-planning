@@ -590,7 +590,7 @@ input::-ms-input-placeholder {
 
 /*home section*/
 .home{
-    background: url(../images/homebg.jpg) no-repeat 100% 100%;
+    background: url(../images/ian-baldwin.jpg) no-repeat 100% 100%;
     background-size: cover;
 }
 
@@ -706,7 +706,7 @@ input::-ms-input-placeholder {
 
 /* Team section css */
 .team{
-    background: url(../images/teambg.jpg) no-repeat center center;
+    background: url(../images/mountain-landscape.jpg) no-repeat center center;
     overflow:hidden;
     background-size: cover;
     color:#fff;
@@ -717,14 +717,23 @@ input::-ms-input-placeholder {
 .team .main_team .head_title h3{
     color:#fff;
 }
+
+/* WIP make images zoom in slightly on hover...must make it a background image instead*/
 .team .single_team_content{
     border:1px solid #fff;
     margin-top:30px;
+}
+
+.team .team-image-container {
+    overflow: hidden;
+}
+.team .first-team-image, .team .second-team-image, .team .third-team-image {
     transition: all .6s;
 }
-.team .single_team_content:hover{
-    transform: rotateY(360deg);
+.team .first-team-image:hover, .team .second-team-image:hover, .team .third-team-image:hover {
+    transform: scale(1.3);
 }
+
 
 .team .single_team_content .single_team_img img{
     width:100%;
@@ -750,7 +759,24 @@ input::-ms-input-placeholder {
     text-transform: uppercase;
 }
 
+.work-with-images {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 364px;
+}
 
+.first-team-image {
+    background-image: url('../images/mara-bike-bw.jpg');
+}
+
+.second-team-image {
+    background-image: url('../images/ian-baldwin.jpg');
+}
+
+.third-team-image {
+    background-image: url('../images/mara-bike-bw.jpg');
+}
 
 
 
@@ -1148,10 +1174,55 @@ input::-ms-input-placeholder {
 
 }
 
+.bold-text {
+    font-weight: bold;
+}
 
+.centered-text {
+    text-align: center;
+}
 
+.mara-bike-image {
+    margin: 10px 0 10px 0;
+    border-radius: 4%;
+}
 
+.header-intro {
+    font-size: 23px;
+}
 
+/*.intro-text-container {
+    background: rbga(121, 121, 121, .5);
+    padding: 31px 0px 10px 0;
+    border: solid 1px black;
+    margin: 0 150px 0 150px;
+}
 
+.hero-container {
+    position: absolute;
+    top: 333px;
+    right: 151px;
+    width: 839px;
+    height: 135px;
+    background-color: black;
+    opacity: 0.5;
+}*/
 
+.climbing-image {
+    height: 363px;
+}
 
+.social-icon-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-icon {
+    width: 55px;
+    height: 55px;
+}
+
+.social-container {
+    margin-top: 14px;
+}
