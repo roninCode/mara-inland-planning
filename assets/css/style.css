@@ -993,6 +993,7 @@ input::-ms-input-placeholder {
 /*contact section css*/
 .contact{
     background: #232D39;
+    color: #EEEBD9;
 }
 
 .contact .main_clinetslogo{
