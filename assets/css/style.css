@@ -159,24 +159,26 @@ h1 {
     color:#fff;
 }
 h2 {
-    font-size:1.875rem;
-    line-height: 3rem;
+    font-size:4rem;
+    line-height: 3.5rem;
     text-transform: uppercase;
-    font-family: 'playfair_displayblack';
+    font-family: 'bebas-neue';
+    letter-spacing: 0.06em;
+}
 
 }
 h3 {
     font-size:1.375rem;
     line-height: 2.5rem;  
     text-transform: uppercase;
-    font-family: 'playfair_displaybold';
+    font-family: 'bebas-neue';
 }
 h4 {
     font-size: 0.875rem;
     line-height: 2rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
-    font-family: 'robotoblack';
+    font-family: 'bebas-neue';
 }
 h5 {
     font-size: 1.125rem;
@@ -586,7 +588,7 @@ input::-ms-input-placeholder {
     color:#413d4b;
 }
 .head_title p{
-    font-family: 'playfair_displayregular';
+    font-family: 'bebas-neue';
 }
 
 /*home section*/
@@ -607,13 +609,18 @@ input::-ms-input-placeholder {
 }
 .home .main_home h2{
     color: #fff;
-    font-size:2rem;
+    font-size: 4.3rem;
+    letter-spacing: 0.06em;
 }
 .home .main_home p{
     color: #fff;
     max-width: 60%;
     margin: 0 auto;
-    padding-bottom: 30px
+    padding-bottom: 30px;
+    font-size: 28px;
+    line-height: 2.2rem;
+    letter-spacing: 0.15rem;
+    margin-top: 18px;
 }
 
 
@@ -674,6 +681,16 @@ input::-ms-input-placeholder {
 
 .section-header {
     color: black;
+}
+
+#about .section-header {
+    margin-bottom: 20px;
+}
+
+#about .about-text {
+    font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+    line-height: 2.5rem;
 }
 
 /*service section css*/
@@ -1192,6 +1209,7 @@ input::-ms-input-placeholder {
 
 .bold-text {
     font-weight: bold;
+    color: black;
 }
 
 .centered-text {
@@ -1202,10 +1220,21 @@ input::-ms-input-placeholder {
     color: white;
 }
 
-.header-intro {
-    font-size: 23px;
+.mara-founder {
+    letter-spacing: 0.2rem;
 }
 
+.mara-email {
+    line-height: 4.2rem;
+    letter-spacing: 0.15rem;
+}
+
+.copywrite {
+    padding: 42px;
+}
+/*.dash-founder {
+    font-size: 18px;
+}*/
 /*.intro-text-container {
     background: rbga(121, 121, 121, .5);
     padding: 31px 0px 10px 0;
