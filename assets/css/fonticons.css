@@ -10,6 +10,11 @@
 	font-style: normal;
 }
 
+@font-face{
+	font-family: 'bebas-neue';
+	src: url('../fonts/BebasNeueRegular.woff');
+}
+
 .lnr {
 	font-family: 'Linearicons-Free';
 	speak: none;
