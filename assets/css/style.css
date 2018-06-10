@@ -531,6 +531,14 @@ input::-ms-input-placeholder {
 }
 
 
+/*Nav bar mobile dropdown*/
+/*#bs-example-navbar-collapse-1 {
+    background-color: rgba(0, 0, 0, 0.65);
+}*/
+/*#bs-example-navbar-collapse-1 a {
+    font-size: 22px;
+}*/
+
 .main_menu_bg{
     margin-top: 0px;
     background-color: transparent;
@@ -542,14 +550,14 @@ input::-ms-input-placeholder {
     margin: 15px auto;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-    color:#00e0d0;
+    color: white;
 }
 .main_menu_bg .navbar {}
 
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-    color: #00e0d0;
+    color: white;
     padding-bottom: 22px;
-    border-bottom: 1px solid #00e0d0;
+    border-bottom: 1px solid white;
     background: transparent;
 
 }
@@ -618,7 +626,7 @@ input::-ms-input-placeholder {
     margin: 0 auto;
     padding-bottom: 30px;
     font-size: 28px;
-    line-height: 2.2rem;
+    line-height: 30px;
     letter-spacing: 0.15rem;
     margin-top: 18px;
 }
@@ -653,6 +661,18 @@ input::-ms-input-placeholder {
     transition: all 0.6s;
     margin-bottom: 20px;
 }
+/*
+@media (max-width: 991px) {
+    .main_about_area{
+        margin-top: -127px;
+    }
+}
+@media (min-width: 768px) {
+    .main_about_area{
+        margin-top: -127px;
+    }
+}*/
+
 
 .about .main_about_content .single_about .single_about_img img{
     width:100%;
@@ -686,6 +706,7 @@ input::-ms-input-placeholder {
 #about .section-header {
     margin-bottom: 20px;
 }
+
 
 #about .about-text {
     font-size: 1.5rem;
@@ -1219,6 +1240,7 @@ input::-ms-input-placeholder {
 
 .mara-contact {
     color: white;
+    margin-top: 30px;
 }
 
 .mara-founder {
@@ -1229,6 +1251,20 @@ input::-ms-input-placeholder {
     line-height: 4.2rem;
     letter-spacing: 0.15rem;
 }
+
+/*.mail-image {
+    background: url('../images/big-mail.png') no-repeat 100% 100%;
+}*/
+
+@media only screen and (max-width: 430px) {
+    .mara-email {
+        line-height: 6.2rem;
+    }
+    .shift-left {
+        margin-left: -9vw;
+    }
+}
+
 
 .copywrite {
     padding: 42px;

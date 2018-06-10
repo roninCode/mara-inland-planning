@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
         <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+        <link rel="shortcut icon" type="image" href="assets/images/favicon.ico"/>
 
 
         <!--For Plugins external css-->
@@ -77,7 +78,7 @@
 
             <section id="home" class="home">
                 <div class="overlay">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="main_home_slider text-center">
@@ -118,13 +119,13 @@
             </section>
 
             <section id="about" class="about">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="main_about_area sections">
-                            <div class="col-sm-8 col-sm-offset-2">
+                        <div class="main_about_area sections col-sm-12 col-md-12">
+                            <div class="">
                                 <h2 class="section-header">About</h2>
-                                <p class="about-text">The foundation of every community is the land and all its natural resources. Then, we build. We build homes, businesses, schools, parks, shops, and restaurants. And the land becomes a place. Then, we add people. People from all walks of life, all shapes and sizes and colors. And we’ve created a community. The place we callhome.</p>
-                                <p class="about-text bold-text">But, all this takes planning. And, it all starts with the land.</p>
+                                <p class="about-text col-sm-8 col-sm-offset-2">The foundation of every community is the land and all its natural resources. Then, we build. We build homes, businesses, schools, parks, shops, and restaurants. And the land becomes a place. Then, we add people. People from all walks of life, all shapes and sizes and colors. And we’ve created a community. The place we callhome.</p>
+                                <p class="about-text bold-text col-sm-8 col-sm-offset-2">But, all this takes planning. And, it all starts with the land.</p>
                             </div>
                         </div>
                     </div>
@@ -133,7 +134,7 @@
 
             <section id="team" class="team">
                 <div class="video_overlay">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="main_team sections text-center">
@@ -143,11 +144,8 @@
                                         </div>
                                         <div class="col-sm-4 col-xs-12">
                                             <div class="single_team_content">
-                                                <div class="team-image-container">
-                                                    <div class="single_team_img work-with-images first-team-image"></div>
-                                                </div>
                                                 <div class="single_team_text">
-                                                    <h4>Business for Water Stewardship</h4>
+                                                    <a href="http://businessforwater.org/"><h3>Business for Water Stewardship</h3></a>
                                                     <p>Outdoor Retailer Summer Market 2018</p>
                                                 </div>
                                             </div>
@@ -155,11 +153,8 @@
 
                                         <div class="col-sm-4 col-xs-12">
                                             <div class="single_team_content">
-                                                <div class="team-image-container">
-                                                    <div class="single_team_img work-with-images second-team-image"></div>
-                                                </div>
                                                 <div class="single_team_text">
-                                                    <h4>Camber Outdoors</h4>
+                                                    <a href="https://camberoutdoors.org/"><h3>Camber Outdoors</h3></a>
                                                     <p>Pitchfest 2018</p>
                                                 </div>
                                             </div>
@@ -167,11 +162,8 @@
 
                                         <div class="col-sm-4 col-xs-12">
                                             <div class="single_team_content">
-                                                <div class="team-image-container">
-                                                    <div class="single_team_img work-with-images third-team-image"></div>
-                                                </div>
                                                 <div class="single_team_text">
-                                                    <h4>City of Salida</h4>
+                                                    <a href="http://cityofsalida.com/departments/community-development/"><h3>City of Salida</h3></a>
                                                     <p>Downtown Salida Parking Assessment</p>
                                                 </div>
                                             </div>
@@ -185,33 +177,41 @@
             </section>
 
             <section id="contact" class="contact sections">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col-sm-12 col-sm-offset-3">
-                            <div class="row">
-                                <div class="contact_contant">
-
-                                    <div class="mara-bike-image col-sm-3">
-                                        <img src="assets/images/mara-profile.png" alt="Mara MacKillop" /> 
-                                    </div>
-                                    <div class="col-sm-5 mara-contact">
-                                        <h2>Get in touch</h2>
-                                        <div class="contact-info">
-                                            <h3 class="mara-founder">Mara Hardy <span class="dash-founder">// Founder</span></h3>
-                                            <div class="row">
-                                                <div class="col-sm-2"><img src="assets/images/mail-big.png" alt="email" /></div>
-                                                <div class="col-sm-3"><h3 class="mara-email">Mara@InlandPlanning.com</h3></div>
+                        
+                            <div class="mara-bike-image col-xs-10 col-xs-offset-2 col-sm-3 col-sm-offset-2">
+                                <img src="assets/images/mara-profile.png" alt="Mara MacKillop" /> 
+                            </div>
+                            <div class="col-xs-10 col-xs-offset-2 col-sm-7 col-sm-offset-0 mara-contact">
+                                <div class="row">
+                                    <div class="contact-info">
+                                        <h2 class="col-xs-offset-1">Get in touch</h2>
+                                        <h3 class="mara-founder col-xs-offset-1">Mara Hardy <span class="dash-founder">// Founder</span></h3>
+                                        <div class="row">       
+                                            <div class="col-xs-3 col-sm-2 col-sm-offset-1 shift-left">
+                                                <a href="mailto:mara@inlandplanning.com">
+                                                    <img src="assets/images/mail-big.png" alt="email" />
+                                                </a>
                                             </div>
-                                            <div class="social-media-icons row">
-                                                <div class="col-sm-2"><a href=""><i class="fa fa-instagram"></i></a></div>
-                                                <div class="col-sm-2"><a href=""><i class="fa fa-linkedin"></i></a></div>
+                                            <div class="col-xs-9 col-sm-8">
+                                                <a href="mailto:mara@inlandplanning.com">
+                                                    <h3 class="mara-email">Mara@InlandPlanning.com</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="social-media-icons row">
+                                            <div class="col-sm-offset-1 col-xs-offset-2">
+                                                <div class="col-xs-2"><a href=""><i class="fa fa-instagram"></i></a></div>
+                                                <div class="col-xs-2 col-xs-offset-1"><a href="https://www.linkedin.com/in/mara-hardy/"><i class="fa fa-linkedin"></i></a></div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4"><img src="assets/images/logo-navy-web.png" alt="inland-planning" /></div>
-                                </div> <!-- End of messsage contant-->
+                                </div>
                             </div>
-                        </div>
+                      <!--       <div class="col-sm-4"><img src="assets/images/logo-navy-web.png" alt="inland-planning" /></div> -->
+                      <!-- End of messsage contant-->
+
                     </div>
                 </div>
             </section>
@@ -224,7 +224,7 @@
                                 <img src="assets/images/bikers-train.jpg" alt="" />
                             </div>
                             <div class="grid-item">
-                                <img src="assets/images/biker.jpg" alt="" />
+                                <img src="assets/images/biker3.jpg" alt="" />
                             </div>
                             <div class="grid-item">
                                 <img src="assets/images/matthew-brodeur.jpg" alt="" />
