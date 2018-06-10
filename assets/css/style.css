@@ -532,12 +532,12 @@ input::-ms-input-placeholder {
 
 
 /*Nav bar mobile dropdown*/
-#bs-example-navbar-collapse-1 {
+/*#bs-example-navbar-collapse-1 {
     background-color: rgba(0, 0, 0, 0.65);
-}
-#bs-example-navbar-collapse-1 a {
+}*/
+/*#bs-example-navbar-collapse-1 a {
     font-size: 22px;
-}
+}*/
 
 .main_menu_bg{
     margin-top: 0px;
