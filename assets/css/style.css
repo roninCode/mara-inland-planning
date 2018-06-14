@@ -16,7 +16,7 @@ body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'robotolight';
+    font-family: 'bebas-neue';
     font-weight: 300;
     width:100%;
 }
@@ -88,7 +88,7 @@ p {
 
 }
 a{
-    font-family: 'robotoregular';
+    font-family: 'bebas-neue';
 }
 .clear {
     clear: both;
@@ -374,7 +374,7 @@ Button
     background-color: transparent;
     transition: .5s;
     border: 1px solid #00e0d0;
-    font-family: 'hammersmith_oneregular';
+    font-family: 'bebas-neue';
 
 }
 .btn:hover {
@@ -549,6 +549,7 @@ input::-ms-input-placeholder {
     transition: all .6s;
     margin: 15px auto;
 }
+
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
     color: white;
 }
@@ -556,7 +557,7 @@ input::-ms-input-placeholder {
 
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
     color: white;
-    padding-bottom: 22px;
+    padding-bottom: 10px;
     border-bottom: 1px solid white;
     background: transparent;
 
@@ -566,9 +567,10 @@ input::-ms-input-placeholder {
     padding-top: 15px;
     padding-bottom: 20px;
     text-transform: uppercase;
-    font-size: 0.875rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
     color: #fff;
-    font-family: 'robotoblack';
+    font-family: 'bebas-neue';
 }
 .navbar-brand {
     padding: 0px 15px;
@@ -590,7 +592,7 @@ input::-ms-input-placeholder {
 }
 /*heading title all area*/
 .head_title{
-    margin-bottom:90px;
+    margin-bottom: 40px;
 }
 .head_title h3{
     color:#413d4b;
@@ -622,7 +624,7 @@ input::-ms-input-placeholder {
 }
 .home .main_home p{
     color: #fff;
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
     padding-bottom: 30px;
     font-size: 28px;
@@ -631,6 +633,9 @@ input::-ms-input-placeholder {
     margin-top: 18px;
 }
 
+.main_home_slider {
+    pointer-events: none;
+}
 
 
 .home .owl-theme .owl-nav {
@@ -791,7 +796,13 @@ input::-ms-input-placeholder {
     margin-bottom: .0rem;
     display: inline-block;
 }
-.team .single_team_content .team .single_team_text p{}
+.team .single_team_content .single_team_text p{
+    font-size: 1.5rem;
+    font-family: 'bebas-neue';
+    line-height: 1.8rem;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
 
 .team .team_hiring_area{
     margin-top:60px;
@@ -1259,19 +1270,41 @@ input::-ms-input-placeholder {
 @media only screen and (max-width: 430px) {
     .mara-email {
         line-height: 6.2rem;
+        font-size: 2.3rem;
+        margin-left: -12px;
+    }
+    .mara-bike-image img {
+        padding-right: 52px;
     }
     .shift-left {
         margin-left: -9vw;
     }
+    .home .main_home p {
+        max-width: 100%;
+    }
+    .single_team_text h3 {
+        font-size: 2.57rem;
+    }
+    #about .about-text {
+        font-size: 2.2rem;
+    }
 }
 
-
+@media only screen and (max-width: 350px) {
+    .mara-email {
+        line-height: 4.2rem;
+        font-size: 2rem;
+    }
+}
 .copywrite {
     padding: 42px;
 }
 /*.dash-founder {
     font-size: 18px;
 }*/
+.intro-text-container {
+    margin-top: 45px;
+}
 /*.intro-text-container {
     background: rbga(121, 121, 121, .5);
     padding: 31px 0px 10px 0;
